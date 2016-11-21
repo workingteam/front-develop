@@ -1,0 +1,17 @@
+@import "importer";
+
+.index {
+  max-width: 900px;
+  margin: 40px auto;
+  .item {
+    display: block;
+    width: 100%;
+    font-size: 2em;
+    padding: 10px 40px;
+    margin: 20px 0;
+    background-color: rgba(0,0,0,.1);
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 3px;
+    box-shadow: 0 8px 8px -4px rgba(0,0,0,.2);
+  }
+}
